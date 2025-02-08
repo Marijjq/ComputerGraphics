@@ -38,9 +38,10 @@ scene.add(cubeEdges);
  // lighting
 const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
 scene.add(ambientLight);
-const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
-directionalLight.position.set(5, 5, 5).normalize();
-scene.add(directionalLight);
+const hemisphereLight = new THREE.HemisphereLight(0xffffff, 0x444444, 1);
+hemisphereLight.position.set(0, 5, 0);
+scene.add(hemisphereLight);
+
 
 const loader = new GLTFLoader();
 

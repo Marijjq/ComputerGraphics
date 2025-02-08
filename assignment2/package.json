@@ -4,10 +4,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vite",      
-    "build": "vite build", 
+    "dev": "vite",
+    "build": "vite build",
     "serve": "vite preview"
-
   },
   "keywords": [],
   "author": "",
@@ -16,5 +15,8 @@
     "three": "^0.172.0",
     "vite": "^6.0.11"
   },
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "vercel": "^41.0.2"
+  }
 }
